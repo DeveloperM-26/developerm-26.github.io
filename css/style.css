@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+  }
+  .waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #02577a 20%, 	#02a9f7 80%);
+  }
+  .bgTop {
+    z-index: 2;
+    opacity: 0.5;
+  }
+  .bgMiddle {
+    z-index: 1;
+    opacity: 1;
+  }
+  .wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+  }
+  .waveTop {
+    background-size: 50% 100px;
+  }
+  
+  .waveMiddle {
+    background-size: 50% 120px;
+  }
+  
+  .main-background-wrapper{
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+  }  
+  /* .welcome{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+  } */
+  .main-background-para{
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Bree Serif', serif;
+    color: #f1f1f1;
+  }
+  .main-background-para h2{
+    font-size: 3.5rem;
+  }
+  .main-background-para p{
+    font-size: 1rem;
+  }
+
+  .custom-nav{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 2rem;
+    font-family: 'Bree Serif', serif;
+    color: #f1f1f1;
+  }
+
+  .custom-nav .nav-link{
+    color: #f1f1f1;
+    font-size: 1.2rem;
+  }
+
+.course-wrapper h2{
+    color: #212121;
+}
